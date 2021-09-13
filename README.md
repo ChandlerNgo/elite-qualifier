@@ -1,6 +1,6 @@
-# Title
+# Chandler's Web Scrapping Project
 
-Simple (or clever and funny?) description
+A reddit web scraper which gives me information on posts from r/wallpaper
 
 ## Table of Contents
 
@@ -12,14 +12,12 @@ Simple (or clever and funny?) description
 
 ## Background
 
-This is why this application exists.
-
-## Install
-
-These are the steps to setup your local environment to run this application.
+My Project was created because I really like to use different wallpapers across both my wallpapers. Being able to select and choose between several wallpapers was something that this project made easy for me.
 
 ## Usage
 
-These are the steps to use the application or interact with it.
+Click run on the program to look at all the recent posts in r/wallpaper.
 
-### Any optional sections
+## Note
+
+This project is still a work in progress, there may be edits that could make it easier to use.
