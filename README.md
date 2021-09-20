@@ -21,3 +21,10 @@ Click run on the program to look at all the recent posts in r/wallpaper.
 ## Note
 
 This project is still a work in progress, there may be edits that could make it easier to use.
+
+## Testplan
+to test the project:
+
+1.run the test
+
+2. chech results
