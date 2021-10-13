@@ -11,13 +11,21 @@ response = requests.get(url, headers=headers)
 
 soup = BeautifulSoup(response.content, 'html.parser')
 
+def title(input):
+  if item != None:
+    return True
+  else:
+    return False
 
 for item in soup.select('.Post'):
 	try:
-		print(item.select('._eYtD2XCVieq6emjKBH3m')[0].get_text())
-		print(item.select('._1rZYMD_4xY3gRcSS3p8ODO')[0].get_text())
-		print(item.select('.FHCV02u6Cp2zYL0fhQPsO')[0].get_text())
-		print(item.select('._3jOxDPIQ0KaOWpzvSQo-1s')[0].get_text())
-		print()
+		input = item.select('._eYtD2XCVieq6emjKBH3m')[0].get_text()
+		# print(item.select('._eYtD2XCVieq6emjKBH3m')[0].get_text())
+		# print(item.select('._1rZYMD_4xY3gRcSS3p8ODO')[0].get_text())
+		# print(item.select('.FHCV02u6Cp2zYL0fhQPsO')[0].get_text())
+		# print(item.select('._3jOxDPIQ0KaOWpzvSQo-1s')[0].get_text())
+		# print()
 	except Exception as e:
 		print('')
+
+print(title(input))
